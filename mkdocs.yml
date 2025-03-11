@@ -1,7 +1,7 @@
 site_name: cypress.blog
 site_description: cypress的技术博客以及日常生活记录
 site_author: cypress
-site_url: https://example.com
+site_url: https://cyprer.github.io/blog0/
 theme:
   name: material
   features:
