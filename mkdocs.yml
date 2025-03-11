@@ -1,6 +1,90 @@
-site_name: My Project
-site_description: A short description of my project.
-site_author: Your Name
+site_name: cypress.blog
+site_description: cypress的技术博客以及日常生活记录
+site_author: cypress
 site_url: https://example.com
+theme:
+  name: material
+  features:
+    - navigation.indexes
+  palette:
+    # 亮色主题
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换至暗色模式
 
-# ...
+    # 暗色主题
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换至亮色模式
+
+markdown_extensions:
+  - toc:
+      permalink: true        # 添加段落链接
+      toc_depth: 3          # 目录深度
+      separator: "_"        # 标题锚点分隔符
+      title: "目录"         # 目录标题
+
+plugins:
+  - blog:
+      blog_dir: blog
+      post_url_format: "{slug}"
+      post_excerpt: optional
+
+
+nav:
+  - blog:
+      - blog/index.md
+      - 笔记:
+          - 数据结构:
+              - 代码随想录:
+                  - 数组:
+                      - 二分查找: note/datastructure/array/binary-search.md
+                      - 快慢指针: note/datastructure/array/fast-slow-pointer.md
+                      - 双指针: note/datastructure/array/double-pointer.md
+                      - 滑动窗口: note/datastructure/array/sliding-window.md
+                      - 螺旋矩阵: note/datastructure/array/spiral-matrix.md
+                      - 区间和: note/datastructure/array/interval-sum.md
+                      - 分配土地: note/datastructure/array/land-allocation.md
+              - 刷题日记:
+                - 2025:
+                  - 3月:
+                    - 8号: note/datastructure/diary/2025/3month/8.md
+                    - 9号: note/datastructure/diary/2025/3month/9.md
+          - 计组:
+            - csapp: note/cs_composition/csapp.md
+            - cs61c:
+                - knowledge:
+                  - 内存管理: note/cs_composition/cs61c/knowledge/memory_management.md
+                  - 浮点数: note/cs_composition/cs61c/knowledge/floating-point.md
+                  - risv-v: note/cs_composition/cs61c/knowledge/risv-v.md
+                - labs:
+                  - lab1: note/cs_composition/cs61c/labs/lab1.md
+                - projects:
+                  - project1: note/cs_composition/cs61c/projects/project1.md
+          - 计网: note/cs-net.md
+          - 操作系统: note/os.md
+          - 图灵完备: note/turing.md
+          - 建站教程: note/site-construction.md
+      - summary:
+          - 2025年:
+              - 1月:
+                  - 第一周: summary/25year/1month/1week.md
+                  - 第二周: summary/25year/1month/2week.md
+                  - 第三周: summary/25year/1month/3week.md
+                  - 第四周: summary/25year/1month/4week.md
+              - 2月:
+                  - 第一周: summary/25year/2month/1week.md
+                  - 第二周: summary/25year/2month/2week.md
+                  - 第三周: summary/25year/2month/3week.md
+                  - 第四周: summary/25year/2month/4week.md
+              - 3月:
+                  - 第一周: summary/25year/3month/1week.md
+                  - 第二周: summary/25year/3month/2week.md
