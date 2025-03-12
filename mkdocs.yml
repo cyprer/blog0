@@ -58,6 +58,10 @@ nav:
                   - 3月:
                     - 8号: note/datastructure/diary/2025/3month/8.md
                     - 9号: note/datastructure/diary/2025/3month/9.md
+                    - 10号: note/datastructure/diary/2025/3month/10.md
+                    - 11号: note/datastructure/diary/2025/3month/11.md
+                    - 12号: note/datastructure/diary/2025/3month/12.md
+                    - 13号: note/datastructure/diary/2025/3month/13.md
           - 计组:
             - csapp: note/cs_composition/csapp.md
             - cs61c:
@@ -88,3 +92,4 @@ nav:
               - 3月:
                   - 第一周: summary/25year/3month/1week.md
                   - 第二周: summary/25year/3month/2week.md
+                  - 第三周: summary/25year/3month/3week.md
