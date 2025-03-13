@@ -80,6 +80,7 @@ nav:
           - ssm:
             - hmdp: 
               - 登录: note/ssm/hmdp/login.md
+              - 优惠卷秒杀: note/ssm/hmdp/voucher.md
             - spring:  note/ssm/spring.md
             - springmvc: note/ssm/springmvc.md
             - mybatis: note/ssm/mybatis.md
