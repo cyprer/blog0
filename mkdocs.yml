@@ -78,11 +78,12 @@ nav:
           - 图灵完备: note/turing.md
           - 建站教程: note/site-construction.md
           - ssm:
+            - hmdp: 
+              - 登录: note/ssm/hmdp/login.md
             - spring:  note/ssm/spring.md
             - springmvc: note/ssm/springmvc.md
             - mybatis: note/ssm/mybatis.md
-              - hmdp:
-                - 登录功能: note/ssm/hmdp/login.md
+          
         
       - summary:
           - 2025年:
