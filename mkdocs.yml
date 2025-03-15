@@ -31,8 +31,19 @@ markdown_extensions:
       toc_depth: 3          # 目录深度
       separator: "_"        # 标题锚点分隔符
       title: "目录"         # 目录标题
-
+  - pymdownx.details
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      auto_title: true # 显示编程语言名称
+      linenums_style: pymdownx-inline
+      line_spans: __span
+      pygments_lang_class: true
 plugins:
+  - search:
+      lang: 
+      - zh
+      - en
   - blog:
       blog_dir: blog
       post_url_format: "{slug}"
