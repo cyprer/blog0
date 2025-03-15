@@ -40,8 +40,6 @@ plugins:
 
 
 nav:
-  - blog:
-      - blog/index.md
       - 笔记:
           - 数据结构:
               - 代码随想录:
