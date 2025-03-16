@@ -6,6 +6,7 @@ theme:
   name: material
   features:
     - navigation.indexes
+    - navigation.footer
   palette:
     # 亮色主题
     - media: "(prefers-color-scheme: light)"
@@ -84,10 +85,13 @@ nav:
                   - lab1: note/cs_composition/cs61c/labs/lab1.md
                 - projects:
                   - project1: note/cs_composition/cs61c/projects/project1.md
-          - 计网: note/cs-net.md
-          - 操作系统: note/os.md
-          - 图灵完备: note/turing.md
-          - 建站教程: note/site-construction.md
+          - 计网: 
+            - note/cs_net/cs-net.md
+          - 操作系统: 
+            - note/os/os.md
+          - 其他:
+            - 图灵完备: note/others/turing.md
+            - 建站教程: note/others/site-construction.md
           - ssm:
             - hmdp: 
               - 登录: note/ssm/hmdp/login.md
