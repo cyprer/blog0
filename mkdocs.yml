@@ -108,8 +108,11 @@ nav:
             - spring:  note/ssm/spring.md
             - springmvc: note/ssm/springmvc.md
             - mybatis: note/ssm/mybatis.md
-          
-        
+      - 项目:
+          - 小型支付商城:
+            - 架构理论:  
+              - DDD架构概念:  projects/spm/1.1.md
+              - DDD建模方法: projects/spm/1.2.md
       - summary:
           - 2025年:
               - 1月:
