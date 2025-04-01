@@ -83,6 +83,10 @@ nav:
                     - 23号: note/datastructure/diary/2025/3month/23.md
                     - 24号: note/datastructure/diary/2025/3month/24.md
                     - 25号: note/datastructure/diary/2025/3month/25.md
+                    - 29号: note/datastructure/diary/2025/3month/29.md
+                    - 31号: note/datastructure/diary/2025/3month/31.md
+                  - 4月:
+                    - 1号: note/datastructure/diary/2025/4month/1.md
           - 计组:
             - csapp: note/cs_composition/csapp.md
             - cs61c:
@@ -109,10 +113,21 @@ nav:
             - springmvc: note/ssm/springmvc.md
             - mybatis: note/ssm/mybatis.md
       - 项目:
+          - 大营销系统:
+            - 需求设计:
+              - 营销场景的需求设计: projects/marketing/requirement/1.md
+            - 开发运维:
+              
           - 小型支付商城:
             - 架构理论:  
               - DDD架构概念:  projects/spm/1.1.md
               - DDD建模方法: projects/spm/1.2.md
+              - 工程模型: projects/spm/1.3.md
+            - 需求设计:
+              - 需求prd讲解: projects/spm/2.1.md
+              - 工程四色建模设计: projects/spm/2.2.md
+              - 支付订单场景表设计: projects/spm/2.3.md
+            - 功能实现:
       - summary:
           - 2025年:
               - 1月:
