@@ -102,6 +102,7 @@ nav:
                     - 13号: note/datastructure/diary/2025/4month/13.md
                     - 14号: note/datastructure/diary/2025/4month/14.md
                     - 15号: note/datastructure/diary/2025/4month/15.md
+                    - 16号: note/datastructure/diary/2025/4month/16.md
           - 计组:
             - csapp: note/cs_composition/csapp.md
             - cs61c:
@@ -165,4 +166,4 @@ nav:
                   - summary/25year/4month/index.md
                   - 第一周: summary/25year/4month/1week.md
                   - 第二周: summary/25year/4month/2week.md
-                
+                  - 第三周: summary/25year/4month/3week.md
