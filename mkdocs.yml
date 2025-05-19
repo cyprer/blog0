@@ -133,8 +133,10 @@ nav:
             - mybatis: note/ssm/mybatis.md
       - 项目:
           - redis:
-              - 服务端: projects/redis/server.md
-              - Resp协议解析: projects/redis/resp.md
+              - phase1服务端: projects/redis/server.md
+              - phase2Resp协议解析: projects/redis/resp.md
+              - phase3渐进式哈希实现Dict和rediscore接口的完善和实现: projects/redis/rehash.md
+              - phase4Sds和redisString以及相关命令的实现: projects/redis/sds.md
           - 大营销系统:
               - 需求设计:
                   - 营销场景的需求设计: projects/marketing/requirement/1.md
