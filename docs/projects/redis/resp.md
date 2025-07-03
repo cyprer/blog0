@@ -196,7 +196,7 @@ public class RespEncoder extends MessageToByteEncoder<Resp> {
     }
 }
 ```
-## 创建Command接,实现类以及枚举类CommandType
+## 创建Command接口,实现类以及枚举类CommandType
 > Command接口
 ```java
 public interface Command {
