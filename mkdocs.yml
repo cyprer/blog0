@@ -138,7 +138,10 @@ nav:
               - 渐进式哈希实现Dict和rediscore接口的完善和实现: projects/redis/rehash.md
           - 大营销系统:
               - 需求设计:
-                  - 营销场景的需求设计: projects/marketing/requirement/1.md
+                  - 营销场景的需求设计: projects/marketing/demand.md
+              - 抽奖设计:
+                  - 基础层持久化数据: projects/marketing/persistence.md
+                  - 抽奖概率权重设计: projects/marketing/probability.md
           - 小型支付商城:
               - 架构理论:  
                   - DDD架构概念:  projects/spm/1.1.md
