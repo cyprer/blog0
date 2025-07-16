@@ -142,6 +142,7 @@ nav:
               - 抽奖设计:
                   - 基础层持久化数据: projects/marketing/persistence.md
                   - 抽奖概率权重设计: projects/marketing/probability.md
+                  - 抽奖过滤: projects/marketing/filter.md
           - 小型支付商城:
               - 架构理论:  
                   - DDD架构概念:  projects/spm/1.1.md
@@ -195,3 +196,4 @@ nav:
                   - summary/25year/7month/index.md
                   - 第一周: summary/25year/7month/1week.md
                   - 第二周: summary/25year/7month/2week.md
+                  - 第三周: summary/25year/7month/3week.md
