@@ -143,7 +143,9 @@ nav:
                   - 基础层持久化数据: projects/marketing/persistence.md
                   - 抽奖概率权重设计: projects/marketing/probability.md
                   - 抽奖过滤: projects/marketing/filter.md
-                  - 责任链以及规则树: projects/marketing/chain.md
+              - 设计模式:
+                  - 模板模式: projects/marketing/template.md
+                  - 责任链和规则树模式: projects/marketing/chain_and_tree.md
           - 小型支付商城:
               - 架构理论:  
                   - DDD架构概念:  projects/spm/1.1.md
