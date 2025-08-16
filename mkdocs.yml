@@ -52,6 +52,12 @@ plugins:
 
 nav:
       - 笔记:
+          - 微服务技术栈:
+            - eureka: note/microservice/eureka.md
+            - ribbon: note/microservice/ribbon.md
+            - nacos: note/microservice/nacos.md
+            - Feign: note/microservice/feign.md
+            - gateway: note/microservice/gateway.md
           - 数据结构:
               - 代码随想录:
                   - 数组:
