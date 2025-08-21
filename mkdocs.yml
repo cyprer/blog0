@@ -52,6 +52,12 @@ plugins:
 
 nav:
       - 笔记:
+          - jvm:
+            - 字节码增强技术: note/jvm/bytecode-enhancement.md
+            - 类加载机制: note/jvm/class-loading.md
+            - 内存模型: note/jvm/memory-structure.md
+            - 垃圾回收机制: note/jvm/garbage-collection.md
+
           - 微服务技术栈:
             - eureka: note/microservice/eureka.md
             - ribbon: note/microservice/ribbon.md
