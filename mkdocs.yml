@@ -130,7 +130,7 @@ nav:
                 - projects:
                   - project1: note/cs_composition/cs61c/projects/project1.md
           - 计网: 
-            - note/cs_net/cs-net.md
+            - cs16825su: note/cs_net/cs168.md
           - 操作系统: 
             - note/os/os.md
           - 其他:
