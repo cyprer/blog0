@@ -49,7 +49,7 @@ plugins:
 nav:
       - 笔记:
           - mysql:
-            - redolog: note/mysql/redolog.md
+            - 数据更新时流程及遭遇问题的解决方案: note/mysql/redolog.md
             - mvcc: note/mysql/mvcc.md
           - jvm:
             - 字节码增强技术: note/jvm/bytecode-enhancement.md
@@ -132,7 +132,9 @@ nav:
           - 计网: 
             - cs16825su: 
               - note/cs_net/cs168.md
-              - TCP: note/cs_net/tcp.md
+            - http: note/cs_net/http.md
+            - https: note/cs_net/https.md
+            - TCP: note/cs_net/tcp.md
           - 操作系统: 
             - note/os/os.md
           - 其他:
