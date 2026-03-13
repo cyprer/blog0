@@ -140,13 +140,15 @@ nav:
           - 其他:
             - 图灵完备: note/others/turing.md
             - 建站教程: note/others/site-construction.md
-          - ssm:
-            - hmdp: 
-              - 登录: note/ssm/hmdp/login.md
-              - 优惠卷秒杀: note/ssm/hmdp/voucher.md
-            - spring:  note/ssm/spring.md
-            - springmvc: note/ssm/springmvc.md
-            - mybatis: note/ssm/mybatis.md
+          - java:
+            - java基础: note/java/java.md
+            - ssm:
+              - hmdp: 
+                - 登录: note/java/ssm/hmdp/login.md
+                - 优惠卷秒杀: note/java/ssm/hmdp/voucher.md
+              - spring:  note/java/ssm/spring.md
+              - springmvc: note/java/ssm/springmvc.md
+              - mybatis: note/java/ssm/mybatis.md
           - 面经:
             - 虾皮面经: note/interview_experience/1.md
             - 北京天源迪科网路科技有限公司面经: note/interview_experience/2.md
