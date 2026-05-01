@@ -1,0 +1,2 @@
+# March Summary
+  for get a chance of internship,i learn project and algorithm always.Hard work pays off.I get a intership offer from a company in sanya.I am very happy.I hope i can learn more from this internship experience.
